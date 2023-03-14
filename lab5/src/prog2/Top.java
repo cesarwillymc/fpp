@@ -11,7 +11,7 @@ public class Top {
 	}
 	int readBottom() {
 		//implement
-		return mid.m;
+		return midbot.b;
 	}
 	class Middle {
 		int m = 2;
