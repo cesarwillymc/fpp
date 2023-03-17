@@ -143,7 +143,8 @@ public class EmployeeBST {
             List newNodes = new ArrayList();
             for (Object node : nodes) {
                 if (node != null) {
-                    System.out.print(((Node) node).element.getName());
+                    Employee item = ((Node) node).element;
+                    System.out.print((item.getName().length()>2)?item.getName().substring(0,3):item.getName());
                     newNodes.add(((Node) node).left);
                     newNodes.add(((Node) node).right);
                 } else {
