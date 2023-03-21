@@ -7,7 +7,7 @@ public class HashCode {
 }
 
 /*
-In Java, the hashCode() method is used to generate a hash code, which is an integer representation of an
+is an integer representation of an
 object that can be used to efficiently store and retrieve objects in a hash-based data structure,
 such as a HashMap or HashSet.
 
